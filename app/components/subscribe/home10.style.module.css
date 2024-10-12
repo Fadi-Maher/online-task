@@ -1,0 +1,3 @@
+.rotatedImg {
+  transform: scaleX(-1);  
+}

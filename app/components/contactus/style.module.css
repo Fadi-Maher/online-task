@@ -1,0 +1,5 @@
+.rotetedImg{
+  transform: scaleX(-1);
+  position: relative;
+  left: -35px;
+}

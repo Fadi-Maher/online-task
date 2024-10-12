@@ -1,0 +1,45 @@
+.liColor{
+    color: #fcfcfB;
+    font-size: 16px;
+}
+.whiteBtn{
+    background-color: #f8f8f7;
+    color: black;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.custom-letter-spacing {
+  letter-spacing: 0.5em;  
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTW05';
+  src: url('/fonts/HelveticaNeueLTW05-93BlkExObl.ttf') format('truetype');  
+  font-weight: bold;  
+  font-style: normal;  
+  
+}
+
+.heroText {
+  font-family: 'HelveticaNeueLTW05', Arial, sans-serif;  
+  text-align: center;  
+  font-size: 72px;
+  margin-top: 9%;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 90%;
+  
+}
+
+@font-face {
+  font-family: 'Sianches';
+  src: url('/fonts/Sanchez-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sianchesFont{
+      font-family: 'Sianches', sans-serif;
+
+}
