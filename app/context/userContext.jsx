@@ -15,7 +15,7 @@ export const UserProvider = ({ children }) => {
        setUser({ authToken });
       router.push('/'); 
     } else {
-      router.push('/pages/login'); 
+      router.push('/login'); 
     }
   }, [router]);
 

@@ -5,13 +5,19 @@ import * as Yup from 'yup';
 import Image from 'next/image';  
  import { UserIcon, MailIcon, LockClosedIcon, QrcodeIcon, EyeOffIcon, EyeIcon } from '@heroicons/react/outline'; 
 import Link from 'next/link';
-
+import Router from 'next/router';
+import { useRouter } from 'next/navigation';
 const CreateAccount = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [accountCreated, setAccountCreated] = useState(false);
   const [errorMessage, setErrorMessage] = useState(null);
   const [placeholderText, setPlaceholderText] = useState('Upload Image ID');
   const [showPassword, setShowPassword] = useState(false);
+
+const router  = useRouter()
+
+
+
 
   const validationSchema = Yup.object().shape({
     name: Yup.string().required('Name is required'),
@@ -24,6 +30,7 @@ const CreateAccount = () => {
   const handleSubmit = async (values, { setSubmitting }) => {
     setIsSubmitting(true);
     setErrorMessage(null);
+    router.push('/login')
 
 
     try {
@@ -71,11 +78,10 @@ const CreateAccount = () => {
 
       <div className="md:w-1/2 flex items-center justify-center bg-gray-100 p-6 md:p-9">  
         <div className="w-full max-w-md"> 
-          <div>
-            <Image src={'/assets/verifylogo.png'} alt="Vector image" width={50} height={50} className='m-auto mb-2 mt-3' />
-          </div>
-
-          <Image src={'/assets/vector.png'} alt='title' width={225} height={18} className='m-auto mb-9' />
+          
+              <Image className='m-auto mb-2' src={"/assets/verifylogo.png"} width={54} height={40} alt='verfylogo'/>
+          
+             <Image className='m-auto mb-10' src={"/assets/sainchesOfVerify.png"} width={225} height={18} alt='shanches'/>
 
           <Formik
             initialValues={{
