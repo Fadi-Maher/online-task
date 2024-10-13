@@ -1,18 +1,29 @@
-import React from 'react';
+ "use client"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faHeart as faHeartRegular } from '@fortawesome/free-solid-svg-icons'; 
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'; 
+ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'; 
 import Styles from './hero.style.module.css';
 import Image from 'next/image';
-
+ import { useContext } from 'react';
+import { UserContext } from '@/app/context/userContext';
 const Hero = () => {
+
+  const { logoutUser } = useContext(UserContext); 
+
+
   return (
     <section 
       className="h-screen bg-cover bg-center bg-no-repeat" 
       style={{ backgroundImage: "url('https://s3-alpha-sig.figma.com/img/5420/8e91/86a06b633c48008f7af5904b3677f755?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KTdp4iBKWtjg5Av3qldtWJNUPIfecPUJmG9awMUuMGlFOiGX6wLcn7ETdk3GU453nV37z~YTDdgAcToe6ao4cE-RHPbTfhymAc7Ty7qeLrPGDZB2Vc8aM~JCpbhEbW6GoS4jCyQC-XgPnT7Dg-1C2CXNLvispQ8nrShe1hRX1p2J5ldp76etFiTIi1NvzDGbr6qQKUqaV11n247HKZ8mYUZ-NaxA8WB150uYhuR1D31p9ghu0vNspcE7ROeqynq7lyYykDX3tcqN1ZtA3Sa51vFdW6uAcY-qYhSi-yjXpsNKFkgCucQSskCQqjJahjzCOzawbbVEFIRPvuGuC79Ktw__')" }}
     >
-      <div className="container flex flex-col md:flex-row items-center   justify-between  md:px-8">
-       
+      <div className="container flex flex-col md:flex-row items-center   justify-between mb-10  md:px-8">
+
+              <button 
+                onClick={() => logoutUser()} 
+                className='bg-white font-bold p-2 absolute top-9 right-3 rounded-md text-gray-800'>
+                Log Out
+              </button>
+
         <Image 
           src={'/assets/VectorHead.png'} 
           alt='title' 
@@ -51,7 +62,7 @@ const Hero = () => {
         </ul>
       </div>
 
-      <p className={`${Styles.heroText} text-white text-center     `}>
+      <p className={`${Styles.heroText} text-white text-center  mb-10    `}>
         We Help You <br /> Realize Your <br/> Dream Property
       </p>
 

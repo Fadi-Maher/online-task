@@ -5,28 +5,28 @@ import { useRouter } from 'next/navigation';
 export const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
-  const [user, setUser] = useState(localStorage.getItem('token'));
+  const [user, setUser] = useState(localStorage.getItem('authToken'));
   const router = useRouter();
 
   useEffect(() => {
-    const token = localStorage.getItem('token');
+    const authToken = localStorage.getItem('authToken');
     // console.log(token)
-    if (token) {
-       setUser({ token });
+    if (authToken) {
+       setUser({ authToken });
       router.push('/'); 
     } else {
       router.push('/pages/login'); 
     }
   }, [router]);
 
-    const loginUser = (token) => {
-    localStorage.setItem('token', token);
+    const loginUser = (authToken) => {
+    localStorage.setItem('authToken', authToken);
     setUser({ token });
     router.push('/home');  
   };
 
   const logoutUser = () => {
-    localStorage.removeItem('token');
+    localStorage.removeItem('authToken');
     setUser(null);
     router.push('/login');  
   };

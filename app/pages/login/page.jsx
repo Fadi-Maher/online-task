@@ -44,7 +44,7 @@ const Login = () => {
     console.log('Response data from API:', data);  
 
 
-      loginUser(data.token);  
+      loginUser(data.authToken);  
       // console.log(data.token)
 
     } catch (error) {
@@ -59,6 +59,9 @@ const Login = () => {
   };
 
   return (
+
+    
+
     <div className="flex flex-col md:flex-row h-screen">
       {/* Left Image Section */}
       <div className="md:w-1/2 h-1/3 md:h-full relative">
