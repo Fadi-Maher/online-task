@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-export default function HomeSec2() {
+export default function Description() {
   return (
     <div>
       <section className="flex items-center justify-center flex-wrap">

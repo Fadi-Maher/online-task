@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function HomeSec6() {
+export default function RegisterNowSec() {
   return (
     <section>
       <div className="grid grid-cols-2 gap-2 m-auto items-center mb-14 p-28  rounded-lg w-3/4 bg-slate-100">

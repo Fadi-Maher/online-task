@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight  } from '@fortawesome/free-solid-svg-icons';
 
-export default function HomeSec5() {
+export default function RecentlyAdded() {
   return (
     <section className="p-6">
       <h2 className="text-2xl font-bold text-center mb-6">Recently added</h2>

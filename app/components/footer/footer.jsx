@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Subscribe from '../subscribe/homeSec10';
 import Image from 'next/image';
 
-export default function HomeSec11() {
+export default function Footer() {
   return (
     <div style={{ backgroundColor: '#F3F3F1' }} className="p-4 md:p-16">
       <div>

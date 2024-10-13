@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-export default function HomeSec3() {
+export default function Properties() {
   return (
     <div>
       <section className="flex flex-col items-center justify-center">

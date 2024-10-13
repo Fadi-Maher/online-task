@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function HomeSec8() {
+export default function OurPartner() {
   return (
     <div>
       <section>

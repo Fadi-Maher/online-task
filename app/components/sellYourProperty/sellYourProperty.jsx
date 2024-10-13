@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 
-export default function HomeSec4() {
+export default function SellYourProperty() {
   const handleClick = () => {
      
     console.log("Sell your property clicked!");
