@@ -81,7 +81,7 @@ const router  = useRouter()
           
               <Image className='m-auto mb-2' src={"/assets/verifylogo.png"} width={54} height={40} alt='verfylogo'/>
           
-             <Image className='m-auto mb-10' src={"/assets/sainchesOfVerify.png"} width={225} height={18} alt='shanches'/>
+             <Image className='m-auto mb-10' src={"/assets/sainchesOfVerify.png"} width={225} height={18} alt='shanches'/> 
 
           <Formik
             initialValues={{
