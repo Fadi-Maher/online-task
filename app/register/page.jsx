@@ -27,6 +27,7 @@ const CreateAccount = () => {
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     setIsSubmitting(true);
     setErrorMessage(null);
+   router.push('/login')
 
     try {
       const formData = new FormData();
