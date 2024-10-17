@@ -51,7 +51,7 @@ export default function RecentlyAdded() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-3/4 m-auto mb-15">
         {properties.map((property) => (
           <div key={property.id} className="flex flex-col gap-y-1 relative rounded-lg">
-            <div className="absolute flex justify-between gap-28">
+            <div className="absolute flex justify-between gap-20">
               <Image
                 src="/assets/recentlyAdd.png"
                 alt="heart icon"

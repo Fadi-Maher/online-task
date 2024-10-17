@@ -1,3 +1,15 @@
+// {
+//   "extends": [
+//     "next/core-web-vitals",
+//     "plugin:jsx-a11y/recommended"
+//   ],
+//   "plugins": [
+//     "jsx-a11y"
+//   ],
+//   "rules": {
+//     "jsx-a11y/alt-text": "off" // Disable this specific rule
+//   }
+// }
 {
   "extends": [
     "next/core-web-vitals",
@@ -10,13 +22,11 @@
     "jsx-a11y/alt-text": [
       "error",
       {
-        "elements": ["img", "area", "object", "embed", "applet", "iframe"],
-        "img": true,
-        "object": true,
+        "elements": ["img", "object", "area", "input[type='image']"],
+        "img": ["Image"],
         "area": true,
-        "embed": true,
-        "applet": true,
-        "iframe": true
+        "input[type='image']": true,
+        "object": true
       }
     ]
   }
