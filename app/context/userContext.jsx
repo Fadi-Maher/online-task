@@ -12,7 +12,7 @@ export const UserProvider = ({ children }) => {
     const authToken = localStorage.getItem('authToken');
     // console.log(token)
     if (authToken) {
-       setUser({ authToken });
+       setUser(authToken);
       router.push('/'); 
     } else {
       router.push('/login'); 
@@ -20,9 +20,9 @@ export const UserProvider = ({ children }) => {
   }, [router]);
 
     const loginUser = (authToken) => {
-    localStorage.setItem('authToken', authToken);
-    setUser({ token });
-    router.push('/home');  
+    localStorage.setItem('authToken', authToken );
+    setUser( authToken  );
+    router.push('/');  
   };
 
   const logoutUser = () => {

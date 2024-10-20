@@ -24,14 +24,18 @@ const Hero = () => {
                 Log Out
               </button>
 
-        <Image 
-          src={'/assets/VectorHead.png'} 
-          alt='title' 
-          width={225} 
-          height={18} 
-          className="m-auto mb-4 md:mb-0"
-          style={{marginRight:'20px'}}
-        />
+              <Image 
+              
+                src="/assets/VectorHead.png" 
+                alt="title" 
+                width={225}  
+                height={18}   
+                 
+                className="m-auto mb-4 md:mb-0"
+                style={{ marginRight: '20px',width:"auto" , height:'auto' }}     
+              />
+
+
         
        
 

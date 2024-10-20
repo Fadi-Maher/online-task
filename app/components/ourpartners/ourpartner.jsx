@@ -10,8 +10,7 @@ export default function OurPartner() {
             <Image 
               src="/assets/croppedimg.png" 
               alt="Partner Logo"
-              layout="responsive"  
-              width={500}  
+               width={500}  
               height={300}  
             />
           </div>

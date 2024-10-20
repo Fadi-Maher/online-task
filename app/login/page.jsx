@@ -8,6 +8,8 @@ import { MailIcon, LockClosedIcon, EyeOffIcon, EyeIcon } from '@heroicons/react/
 import Link from 'next/link';
 import { UserContext } from '@/app/context/userContext';
 import { useRouter } from 'next/navigation';
+
+
 const Login = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMessage, setErrorMessage] = useState(null);
@@ -21,10 +23,11 @@ const Login = () => {
 
  const  router = useRouter()
   const handleSubmit = async (values, { setSubmitting }) => {
+    // console.log(values)
     setIsSubmitting(true);
     setErrorMessage(null);
-   router.push('/')
-  //  console.log(values)
+     router.push('/')
+
 
 
     try {
@@ -33,8 +36,8 @@ const Login = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(values),
-      });
+        body: JSON.stringify({email: values.email, password: values.password}),}) ;
+        
 
       if (!response.ok) {
         throw new Error('Failed to log in');
@@ -44,7 +47,7 @@ const Login = () => {
     console.log('Response data from API:', data);  
 
 
-      loginUser(data.authToken);  
+      loginUser(data.data.token);  
       // console.log(data.token)
 
     } catch (error) {
@@ -68,9 +71,9 @@ const Login = () => {
         <Image
           src="https://s3-alpha-sig.figma.com/img/48bf/0921/6999851aadf02a908928fba17e60d4d4?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X4gAVZhgQptErnHZ~49XcXwIa1~~nIIrAx~pGX7fHC7fvWsybVBWrgTuCGwWdkPKKFE8dx55MqLPV2a4HfYLE~v4fajeMUH1T~wV10zRzPeiHH45t1xPcEP-To8~PL6Uf7nfx8BJqi1VOy7PntL8l9yZYgRG1xdGjXJdhcLZdvBvrvXX9Ev8oLCckqAzP7ZqOy1JIkr5kv1MJt7b6Qp5KnnK7Al6te4JV85iIv8MqtGeaUe2fnGOg1yQD4cPml~jK0tber8dkj142wNuekIIMXdZx1j6mFQSQddaMwaGCi1kQ9fDocBum2f4X5hsGRjtdASwrbRvamYmw8pTFeVNNw__"
           alt="Your Image"
-          layout="fill"
-          objectFit="cover"
-          className="absolute inset-0"
+           fill
+           className="absolute inset-0"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
           priority
         />
       </div>
@@ -103,7 +106,7 @@ const Login = () => {
                 {/* Password Field */}
                 <div className="form-group mb-4">
                   <div className="flex gap-2">
-                    <Image src={'/assets/pass.png'} width={35} height={2} className="p-2" />
+                    <Image src={'/assets/pass.png'} width={35} height={2} className="p-2" alt='ii' />
                     <label htmlFor="password" className="block mb-2">Password</label>
                   </div>
 
@@ -127,7 +130,7 @@ const Login = () => {
                 {/* Submit Button */}
                 <button type="submit" style={{ backgroundColor: '#2D2D2D' }} className="w-full text-white py-2 hover:bg-gray-500 flex justify-center items-center gap-2 mb-11" disabled={isSubmitting}>
                   {isSubmitting ? 'Logging in...' : 'Login'}
-                  <Image src={'/assets/Group.png'} width={10} height={10} alt='gp' />
+                  <Image src={'/assets/Group.png'} width={500} height={500} alt='gp' style={{height:'10px' ,width:'10px'}}  />
                 </button>
 
                 {errorMessage && <div className="text-red-500 mt-4">{errorMessage}</div>}

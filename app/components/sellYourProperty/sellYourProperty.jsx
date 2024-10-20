@@ -23,9 +23,9 @@ export default function SellYourProperty() {
           <Image
             src="https://s3-alpha-sig.figma.com/img/4bb8/38ee/5e5cf4cdfce28225b6c96a62d2f2b068?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lc6m-QDKSmiU-iXWnbvMGu3EjQ8wAQCJEWoqeTug7bMhcOxE3rberDZA7mo5GTX2ate9bfTasFHS8-wqLXbSSYWZddJ9A9Snzf4EIEsK0bz6oXPBbrDvffEUyyBbLAT-rInxyBIt6FQHeTSd~q1F6UDghBe83UswJrjPgJsEUNGX3hI8xSw4YeX3Pb9UmcWiZoluS362ReXfXMPbiKAqdmIup9gt1DTSTqusplo38Xe2rqrRlvpxBlsH5YoVylIkV7HH2ZXo~4-Z5SOViNNR1sbXDvYocLQtgT05s-JYOasv~~-05v4050Z9TDJA9wYHFwtRP6xz7VS~LW~uNBJyTA__"
             alt="Sell Your Property Visual"
-            layout="responsive" 
-            width={656}  
+             width={656}  
             height={408} 
+            
           />
         </div>
       </div>
