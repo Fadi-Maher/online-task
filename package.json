@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "deploy": "next build && next start",
     "export": "next export",
-    "build": "next build --no-verify"
+    "build": "next build "
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
