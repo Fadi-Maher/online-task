@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section 
       className="h-screen bg-cover bg-center bg-no-repeat" 
-      style={{ backgroundImage: "url('https://s3-alpha-sig.figma.com/img/5420/8e91/86a06b633c48008f7af5904b3677f755?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KTdp4iBKWtjg5Av3qldtWJNUPIfecPUJmG9awMUuMGlFOiGX6wLcn7ETdk3GU453nV37z~YTDdgAcToe6ao4cE-RHPbTfhymAc7Ty7qeLrPGDZB2Vc8aM~JCpbhEbW6GoS4jCyQC-XgPnT7Dg-1C2CXNLvispQ8nrShe1hRX1p2J5ldp76etFiTIi1NvzDGbr6qQKUqaV11n247HKZ8mYUZ-NaxA8WB150uYhuR1D31p9ghu0vNspcE7ROeqynq7lyYykDX3tcqN1ZtA3Sa51vFdW6uAcY-qYhSi-yjXpsNKFkgCucQSskCQqjJahjzCOzawbbVEFIRPvuGuC79Ktw__')" }}
+      style={{ backgroundImage: "url('https://s3-alpha-sig.figma.com/img/5420/8e91/86a06b633c48008f7af5904b3677f755?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dmBjV3EmQfxRz~85r4pirtvlZ8HBffxavDSlaCncgvjxCIVOXewiBfEOxiVVdMPSl83igfr5SB2deLfkO8qYgb5HGw6YlBEdZfe9MAin5-3MroCUFhbDbHryikUIOmcmjlSEXVju1ecbQXUbdYodvJnHpb4fi3xLshSf1yv4iaHaiUABD2-BUwh0~MdLUMdNu596vAbtp26q2WwmiwV-wt1fJaXBF2TFxLq8u7vsrxRj8mJ7eSvpruO1AsFv1Sv0yo6x8lqK0axadcvug7oFQql3XioXYX047Kbc~R4sduRb5mhL4EbOX4O1afv-OrBPtDUmSdOHFFZwo4jVWcVZ6w__')" }}
     >
       <div className="container flex flex-col md:flex-row items-center   justify-between mb-10  md:px-8">
 

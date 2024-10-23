@@ -6,12 +6,12 @@ export default function OurPartner() {
       <section>
         <p className="text-[32px] font-bold text-center">Our Partners</p>
         <div className="grid grid-cols-1 gap-6 m-auto items-center p-8   rounded-lg">
-          <div className="overflow-hidden">
+          <div className="overflow-hidden m-auto block">
             <Image 
-              src="/assets/croppedimg.png" 
+              src="/assets/croppedImage.png" 
               alt="Partner Logo"
-               width={500}  
-              height={300}  
+               width={1511}  
+              height={259}  
             />
           </div>
         </div>

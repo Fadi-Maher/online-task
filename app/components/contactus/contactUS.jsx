@@ -34,7 +34,7 @@ const ContactUS = () => {
 
           <div className={Styles.rotetedImg}>
             <Image
-              src="https://s3-alpha-sig.figma.com/img/f3b3/1779/e52d2fc3c207197647a938a2b0f78f43?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=It1D8NIC5FU5up0cJvRa~fsXH3F8QbJ0ON7K14yQcvRLXJ4sou~PLdXcFf2s35ycKN62Q-ZvnvGJhc9wGkvXyQPDaMtKf42lHbkgnOiETS1nofRZzcWHryZZY4h7ueIu9kcDSI~HRugHLIkHTWogJzkxDEY1pBuKe9XpTQkVhFWiUIXRCkMwXVTbrp28xJkJbzXQAVrdp7XRvYg~yrpayT~YTYplx~fnSu-pmZqPZ6xGIUbnBvuNOqMcaVoNMhHLPnRQ84ZiGYkFzHIgeGiE4m8eohCyBuxs2snkiQaURVkDt8sWCVtD~Oza6xVfCRjO52zWsxGORR2myEethIr5Rw__"
+              src="https://s3-alpha-sig.figma.com/img/f3b3/1779/e52d2fc3c207197647a938a2b0f78f43?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d0FRTHwletakjY38tY~sqOuSa13a~iWs8FxLLD9-LO0GUIUhvX9K1EmTmU0jteUjUKSLqPuyF6ZvozgmFfhNVXtVrQvcvSpGlmJ8u2qU12KY1QmACb8dfvzk9Tt5zzBPrTy8lOgW8Bdqvx4drDpr2Uws4wFYHu4aJdu4ruCMQHEbd6OQOlnDJXJIQrP9-yGC6rQQcKEUroid6-jfdMPvssb9GI0Y-yq0Lk1QF3zCBTvT~9ofbjATSxym6YhbWnj9yFF93jKgqn5Av7DSYCehPbHh8vQe~fMvKbsjF9BHIFIUkyH6NrTRNl~BBeKaZptaGJlawMKxiT2bApBOVf8gyg__"
               alt="A place you'll love"
               className="rounded-lg w-full"
               width={595}

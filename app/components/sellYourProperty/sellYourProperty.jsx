@@ -21,7 +21,7 @@ export default function SellYourProperty() {
 
         <div>
           <Image
-            src="https://s3-alpha-sig.figma.com/img/4bb8/38ee/5e5cf4cdfce28225b6c96a62d2f2b068?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lc6m-QDKSmiU-iXWnbvMGu3EjQ8wAQCJEWoqeTug7bMhcOxE3rberDZA7mo5GTX2ate9bfTasFHS8-wqLXbSSYWZddJ9A9Snzf4EIEsK0bz6oXPBbrDvffEUyyBbLAT-rInxyBIt6FQHeTSd~q1F6UDghBe83UswJrjPgJsEUNGX3hI8xSw4YeX3Pb9UmcWiZoluS362ReXfXMPbiKAqdmIup9gt1DTSTqusplo38Xe2rqrRlvpxBlsH5YoVylIkV7HH2ZXo~4-Z5SOViNNR1sbXDvYocLQtgT05s-JYOasv~~-05v4050Z9TDJA9wYHFwtRP6xz7VS~LW~uNBJyTA__"
+            src="https://s3-alpha-sig.figma.com/img/4bb8/38ee/5e5cf4cdfce28225b6c96a62d2f2b068?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XQw~Cf4Z8qiL1lUmJes-0CoIgeXj5yc9mbEbZaOCOm7Dwz04gyuQlNPYeoRRkK3slJqLHJgL6JKvV8b9-ZpD5M26A913zTrUtGHARBwyUr7rWDrriw-crVhesGz-3beLcraqb8w76Xvr4D8o3kX7aNs-AYff4vPJpHm3jYyWSB8VuyTaFCD3SEoOZcXGpG6nLpRdWFhhIaqw7cjuP39RwIbUDTeT7EEF1R~dllwAhif~rO7SkCMNRBiZTWnvXYPdYUgV2iEhC9h9dYpnJm7o2B61uG7a9zBXCIvTWtXEaLOZJSXWidw67Fx5yPpQdoFzvM~9xiPJKeHKKPt3mmxZQA__"
             alt="Sell Your Property Visual"
              width={656}  
             height={408} 

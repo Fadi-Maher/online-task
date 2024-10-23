@@ -13,7 +13,7 @@ export default function Properties() {
             <Image
               style={{ height: '270px' }}
               className="mb-3 w-full"
-              src="https://s3-alpha-sig.figma.com/img/67f1/e6f1/750e60db40ea390d29a5ae31d0b9bc04?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KlR-OsjLy1CH-bp8dV5uAtS3hBsAjFagLnnOIuO8jRuBy3g9zNK9dMzBPDyfNImWUlW5INWyRhueMDBYO6Rr9pI8Xsqr1dBV57UlExbisC3v2hcmiMMsGh0rCZYpxIWfPcdNT5EgaBacD7SFWcv4xZrljI4n7EfyTt-74eGAiDInj4vXbohY~whmyw-pLX-LfRHvw~YLmSqHI1217mvSfQyHzL2g2-VqKCmMZvjAyuJfj-WurieQqMwsTsw-A3wkO5e5EfYijt0ueT4AX~wTsDiLclf8v8DJhT8qPjqi7siU-HNIdZdZScdNcCvNbP6r5ECUEUFiCQ40a4f1lo4M8w__"
+              src="https://s3-alpha-sig.figma.com/img/67f1/e6f1/750e60db40ea390d29a5ae31d0b9bc04?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VyFV2UaJRPwbB6tjMWzCQzeGGDf4Y5CmbmSbyx-hwQ9dWnB7cUCp9y4bbmy7iIv88uTycix5J5r4X~Gk4zzLXttsW2loDlO1~6EOFwWuwLUQucrnJjQ3osXi7st1s~UZcsv7g8XQuyArGHmf~z4~yY7bghIgmJbuTNQ--KTihRs~DxyRKusX9FOQiawFGjLY3-DahOUXD4eK~3umeRzSikMSMDV0kyLWWGsySJflSeu1hPS78oKH0dXhRWPDTRIpw4aNbtxPEWE1Sv74VEdwRjPska7TgFmx1K4S3RmubroiNpARlgDKpnS5-mNkI9jc4MFYweR~OVIhB1OwwDdGtA__"
               alt="New Cairo Property"
               width={370}
               height={270}
@@ -29,7 +29,7 @@ export default function Properties() {
             <Image
               style={{ height: '270px' }}
               className="mb-3 w-full"
-              src="https://s3-alpha-sig.figma.com/img/3dd5/b51f/92c8a01610683e5cd593badfd9947bd2?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kPFe8ZJIsLmI3g~Fp5CVQTvtW6qtsxpLDB95PuoASOH4TPgNV8a69bH0h67nI2O8gnj7icYKe9Cogvc-LeE~bCVHw3MiR94vAApydMkYl-0OGcusOegX9Tas2IbAVQk9ujxI-9ON3kKgjoR~sLxHS2CymRogMc92qSObZy4zDmK-Q850Gy6PTyKeeV~ASl-RU5iLRRFDsg1UFnxxuPTwJt6LsWxIiL5tdirC19nIW~DRRMRlFprYsQtO3XAJm99NZsxRcdi1pyJhfMWbDT--PKYEqzitObI0aDfb7eeHHrZBe6rcQLlOI2bjagS76nOaHL90zR-wsX18hiK6K17XXw__"
+              src="https://s3-alpha-sig.figma.com/img/3dd5/b51f/92c8a01610683e5cd593badfd9947bd2?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H2tKTj2SencWzbJyhlnVDwWkrkxnu79rmCrTW3Wf8s0xXi7qY4f9VVqcQKLCegb2A5KW-r9cHKV5SDhW53PzAl0Jo0-PLBGB9K~gkgxHhXEibFIUcId0QdvwILR2t8xEJoXPH3cz7rk0hgFZWDueI~93ExEo6uBSfBs5XXd-EubGOZqjaHaFhHhYeb6YUp1K8iZN6Zcn6dFF4Wa8quToc8blUHOtxenLQDNYbc9WSE6tlmRyNpzRbyoFGFLszsrHgmBCFec6IZe6cD~w~3g57Ljh8emaNN0piCdyZuVWOwn4q-3K8qExNyGaZOYS1aBCQ0jt2KZTn1Vi4O1j6o~wHg__"
               alt="October Property"
               width={370}
               height={270}
@@ -45,7 +45,7 @@ export default function Properties() {
             <Image
               style={{ height: '270px' }}
               className="mb-3 w-full"
-              src="https://s3-alpha-sig.figma.com/img/d0d2/048a/6b527dced8aa9c2a2f2d7e86c92bb384?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=amm~bKe1iWbPfmkNSTKri71Dpaiv2yjClII6SqNw8nYjvwtxnSjYosP2gwhCyXhBddWD03x10wRxA6RQuZtCclkS3PPHHa60sQNRs5ZH1ojPN9UR7XbazXelymmcEnPtNxtSphAMOdPHBxNCzJY2oZ~aOJiuv1nIV8WJQwFdNL-MZLQdA6Z7mqWBMhIGXfg1-Xs04QcTSgp~gneIan7Gv28dXCGfQSMXdNdlIL15LbFNB8Cn~vfqF62N4~-~rtlkv911CKjfWdJMc2EZFYdWAk1hHf6DFpplpJ2Hdu5WeprrLfAH8xuU72~PtELn6ByfSpet7V602QSgH79Jwlk0mA__"
+              src="https://s3-alpha-sig.figma.com/img/d0d2/048a/6b527dced8aa9c2a2f2d7e86c92bb384?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kjxMf9vJN1O7DXCcGujFkKx~S~78vIrp6TxHBTQQwSCmh5KaZ1cmZGHkxgprnQxJIEbuIVQzkEtkAdXR3yz6NbcdjkU3C9sGkSwyJ7hxfEbuwf6UpA1aCVgzXdq78LwIPdrkJnrqN53hnQyaxjnhrayty-wCd7wusqawPqCiQYxMdNzU36FrsnlDzBpBOAD4AD8jOe~1Me8hu5jjjggY8EKJv~8rDNnmCQ46IFLmEb1GtAww0oEi6uVZ7K2EuvHUBfIb4PrL878Z70SJzmjK2fKko~yjKvAsszs~0NjFlnrWB3~HU-8F~bo~Yh7n1GP77wCeSu3Vk5kD8UB5xe3dIw__"
               alt="Seaside Property"
               width={370}
               height={270}
