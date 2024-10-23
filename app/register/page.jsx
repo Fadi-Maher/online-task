@@ -63,7 +63,7 @@ const CreateAccount = () => {
     <div className="flex flex-col md:flex-row h-screen ">
       <div className="md:w-1/2 h-full relative">
         <Image
-          src="https://s3-alpha-sig.figma.com/img/48bf/0921/6999851aadf02a908928fba17e60d4d4?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X4gAVZhgQptErnHZ~49XcXwIa1~~nIIrAx~pGX7fHC7fvWsybVBWrgTuCGwWdkPKKFE8dx55MqLPV2a4HfYLE~v4fajeMUH1T~wV10zRzPeiHH45t1xPcEP-To8~PL6Uf7nfx8BJqi1VOy7PntL8l9yZYgRG1xdGjXJdhcLZdvBvrvXX9Ev8oLCckqAzP7ZqOy1JIkr5kv1MJt7b6Qp5KnnK7Al6te4JV85iIv8MqtGeaUe2fnGOg1yQD4cPml~jK0tber8dkj142wNuekIIMXdZx1j6mFQSQddaMwaGCi1kQ9fDocBum2f4X5hsGRjtdASwrbRvamYmw8pTFeVNNw__"
+          src="https://s3-alpha-sig.figma.com/img/48bf/0921/6999851aadf02a908928fba17e60d4d4?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j59ZwHgl8Fv0vHZ87afcyOcXl3C19n8dE~ENrODSjScOSBbeJDaqht6mdwdn5sf3UpHg~wRo~riTWD0qLkdG0OF2j5PTiYcdGPQhsNQrznTol54w7Kv0SqGRPXqFDYWmF247-wUh6CgoPnJGy~QW42t8G-sbUfknepgYKCB-sN4dNbkbC6bI4WMio5QLsnLCnVH-Hi9Fv~298DTn3eNfATFPYBhb~X2teNHa8en20GuInPdJyZJscaz5vDkWzQXeYWxuh-Gq1rEy3IPz2PSAj1gtDn3djEx7MQLCNlPv5qYhsWc5ZO2Q0h~T1dMQe2ok7bYlgRAHmzsBWW0L8IFxOw__"
           alt="Your Image"
           //  fill
           // width={756}
