@@ -35,7 +35,7 @@ const ContactUS = () => {
           <div className={Styles.rotetedImg}>
             <Image
               src={"/assets/contactus.png"}
-              alt="A place you'll love"
+               alt="A place you'll lovee"
               className="rounded-lg w-full"
               width={595}
               height={412}

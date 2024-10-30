@@ -6,7 +6,12 @@ export default function RecentlyAdded() {
   const properties = [
     {
       id: 1,
+<<<<<<< HEAD
       imageUrl: '/assets/recent1.png', 
+=======
+      imageUrl:
+        'https://s3-alpha-sig.figma.com/img/e00e/c555/9b2e943e2d4d73b2b00a10479c26ad08?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KDlbhO03s8ySXERkVT1l10opteNWsdCgG0rwoEP1hmGUP41rAu6~6VuZsJZhoWOkVzJqoEglr42Lr3eN3SkTgJl3vjVji0YbDGFcCVaXUP~sidEZZwzEk3Er69t4W4K90oRcghlXFCcvrBhmd-kUmdOgT9tDUzug6pT5DL3E2EJX7bo~HaX0X~RZ4Kx~lBoa-dOF0LvXuRgs22UD~o~j6rcCriZ27M4qkl4nkXlRf9XSMwnRR7KWPQszlB3nc6t-YQA2~l5dkoHTX1tkIq1Ajb655QLrnUVFZlfaNHJt2xKf00BLDODZ8-czstcmdsp-7OAy57WhFcza~kEQ40To-A__',
+>>>>>>> 6ac9e93a0829a8b974e259fa14950598620572c1
       location: 'Est St, 77 - Central Park South, NYC',
       price: '524.000 EGP',
       monthly: '96,500 Monthly',
@@ -18,8 +23,14 @@ export default function RecentlyAdded() {
     },
     {
       id: 2,
+<<<<<<< HEAD
       imageUrl: '/assets/recent2.png', 
        location: 'Est St, 77 - Central Park South, NYC',
+=======
+      imageUrl:
+        'https://s3-alpha-sig.figma.com/img/88b1/0a45/71616ed595db727d053cf5194114f2c6?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Zjoey2KLrHrdKbpWt3IRplyksVzkNXxLyzdCyO5Lm1k8~rriPbCGr4nHZptnrcvg7t7flEidWzzd3iMg3mcMAGxdnIeF5ABpi-nTHBWf7-sGd-woteE4PISSl9Alc3lrOehX6xAOGHiJYSE4pZWvvrkFmCUJP9o3XFtRPklUD9BwTH7vyP~nFu52nkgG007TxwV8Ihkkr0KYBBZB4b5eCVi-0598urGdceZhlX8u-HP90HkWrXUiWz0VRu9ItCRSpQI9L8ICh7tIAGZQDsC2trpgWL9uhyRPZ4o2HInR30pNOMHf1plRDgVgtHIKMYls~5s5tt2nzHW8WRvsxqLCZQ__',
+      location: 'Est St, 77 - Central Park South, NYC',
+>>>>>>> 6ac9e93a0829a8b974e259fa14950598620572c1
       price: '524.000 EGP',
       monthly: '96,500 Monthly',
       details: {
@@ -30,7 +41,12 @@ export default function RecentlyAdded() {
     },
     {
       id: 3,
+<<<<<<< HEAD
       imageUrl: '/assets/recent3.png',      
+=======
+      imageUrl:
+        'https://s3-alpha-sig.figma.com/img/70bc/832e/e9a6f4143a2e8abd6732887be3f29b0c?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XjbtVdyXbuJzObtpxYVksv-cnCi9o8RqrGqUV0mrBnbzJoCA6djSKlAeOX4SJeEGoR8PFqJxoWYCwlb49ClmjtYHOjOBM5Bnm10ypt~zarKPWpIhx-ggBki3R3aSPYX78FQXKbEZZ~duQiIEYLb45aOqEwCAOsu1daqlKOLbM9jDFPD~bIlNln3PYCbTPvViPP4eF9IYui1O-bpC6BQIxTzTHomIIEbhURlyAtTyW5lKXCk6c-DJTki61RBHbYPvL6n6QtR9Pks3tULfibHCErj-sXL89n~-lkiCn~4AQdmOMBZmrPnNwz6lorKrnVgNcDFe593Ks~NJR8ieiNToEA__',
+>>>>>>> 6ac9e93a0829a8b974e259fa14950598620572c1
       location: 'Est St, 77 - Central Park South, NYC',
       price: '524.000 EGP',
       monthly: '96,500 Monthly',
