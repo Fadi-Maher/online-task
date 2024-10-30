@@ -7,7 +7,7 @@ export default function RegisterNowSec() {
          
         <div>
           <Image 
-            src="https://s3-alpha-sig.figma.com/img/c6e3/441b/3c0504d37b9c9b57af41121d727deeb1?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LZjR3UvK84kSGhqMkYYHYgnaCDSF9PX1hPynDJlXmK2AniQLD9Kyc3D0wZQ5wvCFG599twhqzqo1NUfIHD2qQB4F5cyIKqkTggTIV7EHz2BHMfhJuF6J5ncw81wfYkZrKzFnUwigBQ3mEN3vhK5d5hEnFceWuzGCXrO5mMNDhBwDhkp0KrJLwim07iSfq47H3ORFO4ObJE-CKRpwkGhFq7jaanUI8NjZqwlkyt8rxM7aI571XCXMRBIyWkJCPZGR3VK-Xp7DJQ5Ee7kz3im4D3hH3LIly0Ppau0BVcD8perEoyWEARDkWLjUFdHza3BYEABrLit5BAFyhPyoWj2iCg__" 
+            src={"/assets/regiternow.png"}  
             alt="Property" 
             width={498}  
             height={351}  

@@ -6,8 +6,7 @@ export default function RecentlyAdded() {
   const properties = [
     {
       id: 1,
-      imageUrl:
-        'https://s3-alpha-sig.figma.com/img/e00e/c555/9b2e943e2d4d73b2b00a10479c26ad08?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NhCtPFyvzC7Br-tscqM-p2I8T8TcK4-pmBzd43IRDjm1q~Sbu~kj-DTebt0aiqByXO-fYPPHZxWL-V37aMjJV1oPabuM2uhZAQUhv29pSYAZ-PdUlxnmRlRbiPN5MnUDuOSJvxAC2iK-st2Q7K8fbVBRSDfSWPrptBaBpYNmtBzc0g7R3CjKOspyBJDafiH8wScBePGlvVg3IboK8pbW7ECOSfgkZRL35FJ49NoOQOL15H1niSAZppsduyhu9A0UTpkP2z093J82fNkYa3jB4MEZUY-nKnYXeqGbneARGe0cie6d76S558loFZA7tqvsY5MhjnRENtCpN4rbCt-V1Q__',
+      imageUrl: '/assets/recent1.png', 
       location: 'Est St, 77 - Central Park South, NYC',
       price: '524.000 EGP',
       monthly: '96,500 Monthly',
@@ -19,9 +18,8 @@ export default function RecentlyAdded() {
     },
     {
       id: 2,
-      imageUrl:
-        'https://s3-alpha-sig.figma.com/img/88b1/0a45/71616ed595db727d053cf5194114f2c6?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ih98tS0hd6EB5mDG5YDJTFt5WqNheNx8Xju6XGMLapsocRji5D7USEziEY07WzzUvaqjagrVHgcNSEap1NqDfrmHtcb2yZns6e2-RaN8B5ZKLqX3CvFw5cCUdhXWktTm~N-d-lHQTRQaoeu5vkBj0tjF4kLBPt1JB2cLHEO7LgTkOF~b68p2BW8c7psL8-GeuuYUTU2YTsmdNE1TMuSjAFsBoiE4-o9c4SD2I6LdV8Qgm5S6LTLkfX1OixVByMZ3qUg1WpR44cH-GaSd2FUp3XVaZJtHdoRkHymJATQ3odE3fHpKjtXpLnYTMlxgZ2RDmZ6dJKkn5q4PCtKVzdBpNg__',
-      location: 'Est St, 77 - Central Park South, NYC',
+      imageUrl: '/assets/recent2.png', 
+       location: 'Est St, 77 - Central Park South, NYC',
       price: '524.000 EGP',
       monthly: '96,500 Monthly',
       details: {
@@ -32,8 +30,7 @@ export default function RecentlyAdded() {
     },
     {
       id: 3,
-      imageUrl:
-        'https://s3-alpha-sig.figma.com/img/70bc/832e/e9a6f4143a2e8abd6732887be3f29b0c?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CojCG40PLi0Xo9N3mCwQF3vEhiMfY6AIlcPHrfpJzymkuf0dkwPqtVjmeePuvVw~zZCQIFgJj1o4du6H9-TQECo13uXHO3FP6xc38sxDNM-uXSnCOYYtLOIauZtQT7Ep~PSsegzUiuJ8jwaASprC-Hw31DEnDxZyxqEpQeyFJ3q2NHmoE0M4zPYtEbpt7wMgSfuMV-wsBy9ZGtvwJDTorVFL0M52DqLrKhorMgXdOEP07-ZcPDA4kTVDr3v6Lf57L1dAOwWiN~LNhuoIL6bWS86b-y1ivbyrUrluVyWVsUKuSRnYcEx~jiouApMevnKqQ63Qole3ddV0mxcIfYNU1A__',
+      imageUrl: '/assets/recent3.png',      
       location: 'Est St, 77 - Central Park South, NYC',
       price: '524.000 EGP',
       monthly: '96,500 Monthly',
@@ -51,7 +48,7 @@ export default function RecentlyAdded() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-3/4 m-auto mb-15">
         {properties.map((property) => (
           <div key={property.id} className="flex flex-col gap-y-1 relative rounded-lg">
-            <div className="absolute flex justify-between gap-20">
+            <div className="absolute flex justify-between gap-32">
               <Image
                 src="/assets/recentlyAdd.png"
                 alt="heart icon"

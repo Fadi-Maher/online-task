@@ -22,40 +22,41 @@ const Login = () => {
   });
 
  const  router = useRouter()
-  const handleSubmit = async (values, { setSubmitting }) => {
-    // console.log(values)
-    setIsSubmitting(true);
-    setErrorMessage(null);
-     router.push('/')
+ const handleSubmit = async (values, { setSubmitting }) => {
+  setIsSubmitting(true);
+  setErrorMessage(null);
 
+  try {
+    const response = await fetch('https://sunchase.backend.aait-d.com/api/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email: values.email,
+        password: values.password,
+      }),
+    });
 
-
-    try {
-      const response = await fetch('https://sunchase.backend.aait-d.com/api/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({email: values.email, password: values.password}),}) ;
-        
-
-      if (!response.ok) {
-        throw new Error('Failed to log in');
-      }
-
-      const data = await response.json();
-    console.log('Response data from API:', data);  
-
-
-      loginUser(data.data.token);  
-      // console.log(data.token)
-
-    } catch (error) {
-      setErrorMessage(error.message);
-    } finally {
-      setIsSubmitting(false);
+    if (!response.ok) {
+      throw new Error('Failed to log in');
     }
-  };
+
+    const data = await response.json();
+    console.log('Response data from API:', data);
+
+    // Assuming data.data.token exists
+    loginUser(data.data.token);
+    router.push('/home'); // Redirect to home after successful login
+  } catch (error) {
+    setErrorMessage(error.message);
+  } finally {
+    setIsSubmitting(false);
+    router.push('/');
+  }
+};
+
+
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);

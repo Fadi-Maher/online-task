@@ -8,10 +8,10 @@ export default function OurPartner() {
         <div className="grid grid-cols-1 gap-6 m-auto items-center p-8   rounded-lg">
           <div className="overflow-hidden">
             <Image 
-              src="/assets/croppedimg.png" 
+              src="/assets/ourpartners.png" 
               alt="Partner Logo"
-               width={500}  
-              height={300}  
+               width={1511}  
+              height={259}  
             />
           </div>
         </div>
