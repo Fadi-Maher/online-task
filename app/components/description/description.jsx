@@ -9,11 +9,7 @@ export default function Description() {
           {/* Image Section */}
           <div className="w-full">
             <Image
-<<<<<<< HEAD
-              src={"/assets/description.png"}
-=======
-              src="https://s3-alpha-sig.figma.com/img/6892/cdc9/0bcbf2bb63d5cad8c9bec2178123309d?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MfWea1o2lGXuNCj142nr~9kvSkNynOnZ6L6-LBxHpVgnwmedb6kZcCkRheq28jMPlCtEAxcLBGLUOeqYkRbbdbjGWR1WIvcrAYIwwbgktPLIfc0HftNJFIk5at26qGDhF2UPRHc6zmJwaQ2iJfYFYcdjJE9Bgpo~GgLsjbMrBgILNTw-tnLxZaO5i4TkuQM05Wk22Y2-N7nYBOfUABl36Oxf2t6eOK1WLNn2uyHR2SiAOlCdDToY2H-l6WEuHnA0Yw-1XTXBHc231VA-E2vT9jUYYheqpkn5I0Yz7mac-xmuR-ZHwhG6~3RH8R5MB19JTqbu4NvkA5q8wUM8vDQVBg__"
->>>>>>> 6ac9e93a0829a8b974e259fa14950598620572c1
+               src={"/assets/description.png"}
               alt="Sample Image"
               className="rounded-lg shadow-lg w-full h-auto"
               width={570}

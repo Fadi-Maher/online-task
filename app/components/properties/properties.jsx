@@ -13,14 +13,9 @@ export default function Properties() {
             <Image
               style={{ height: '270px' }}
               className="mb-3 w-full"
-<<<<<<< HEAD
-              src={'/assets/properties1.png'}
+               src={'/assets/properties1.png'}
               alt="New Cairo Property1"
-=======
-              src="https://s3-alpha-sig.figma.com/img/67f1/e6f1/750e60db40ea390d29a5ae31d0b9bc04?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VyFV2UaJRPwbB6tjMWzCQzeGGDf4Y5CmbmSbyx-hwQ9dWnB7cUCp9y4bbmy7iIv88uTycix5J5r4X~Gk4zzLXttsW2loDlO1~6EOFwWuwLUQucrnJjQ3osXi7st1s~UZcsv7g8XQuyArGHmf~z4~yY7bghIgmJbuTNQ--KTihRs~DxyRKusX9FOQiawFGjLY3-DahOUXD4eK~3umeRzSikMSMDV0kyLWWGsySJflSeu1hPS78oKH0dXhRWPDTRIpw4aNbtxPEWE1Sv74VEdwRjPska7TgFmx1K4S3RmubroiNpARlgDKpnS5-mNkI9jc4MFYweR~OVIhB1OwwDdGtA__"
-              alt="New Cairo Property"
->>>>>>> 6ac9e93a0829a8b974e259fa14950598620572c1
-              width={370}
+               width={370}
               height={270}
             />
             <div className="flex justify-between p-2">
@@ -34,13 +29,9 @@ export default function Properties() {
             <Image
               style={{ height: '270px' }}
               className="mb-3 w-full"
-<<<<<<< HEAD
-              src={'/assets/properties2.png'}              alt="October Property"
-=======
-              src="https://s3-alpha-sig.figma.com/img/3dd5/b51f/92c8a01610683e5cd593badfd9947bd2?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H2tKTj2SencWzbJyhlnVDwWkrkxnu79rmCrTW3Wf8s0xXi7qY4f9VVqcQKLCegb2A5KW-r9cHKV5SDhW53PzAl0Jo0-PLBGB9K~gkgxHhXEibFIUcId0QdvwILR2t8xEJoXPH3cz7rk0hgFZWDueI~93ExEo6uBSfBs5XXd-EubGOZqjaHaFhHhYeb6YUp1K8iZN6Zcn6dFF4Wa8quToc8blUHOtxenLQDNYbc9WSE6tlmRyNpzRbyoFGFLszsrHgmBCFec6IZe6cD~w~3g57Ljh8emaNN0piCdyZuVWOwn4q-3K8qExNyGaZOYS1aBCQ0jt2KZTn1Vi4O1j6o~wHg__"
-              alt="October Property"
->>>>>>> 6ac9e93a0829a8b974e259fa14950598620572c1
-              width={370}
+               src={'/assets/properties2.png'}    
+               alt="October Property"
+               width={370}
               height={270}
             />
             <div className="flex justify-between p-2">
@@ -54,12 +45,8 @@ export default function Properties() {
             <Image
               style={{ height: '270px' }}
               className="mb-3 w-full"
-<<<<<<< HEAD
-              src={'/assets/properties3.png'}   
-=======
-              src="https://s3-alpha-sig.figma.com/img/d0d2/048a/6b527dced8aa9c2a2f2d7e86c92bb384?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kjxMf9vJN1O7DXCcGujFkKx~S~78vIrp6TxHBTQQwSCmh5KaZ1cmZGHkxgprnQxJIEbuIVQzkEtkAdXR3yz6NbcdjkU3C9sGkSwyJ7hxfEbuwf6UpA1aCVgzXdq78LwIPdrkJnrqN53hnQyaxjnhrayty-wCd7wusqawPqCiQYxMdNzU36FrsnlDzBpBOAD4AD8jOe~1Me8hu5jjjggY8EKJv~8rDNnmCQ46IFLmEb1GtAww0oEi6uVZ7K2EuvHUBfIb4PrL878Z70SJzmjK2fKko~yjKvAsszs~0NjFlnrWB3~HU-8F~bo~Yh7n1GP77wCeSu3Vk5kD8UB5xe3dIw__"
->>>>>>> 6ac9e93a0829a8b974e259fa14950598620572c1
-              alt="Seaside Property"
+               src={'/assets/properties3.png'}   
+               alt="Seaside Property"
               width={370}
               height={270}
             />
