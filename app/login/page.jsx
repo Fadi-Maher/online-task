@@ -41,18 +41,18 @@ const Login = () => {
     if (!response.ok) {
       throw new Error('Failed to log in');
     }
-
+     router.push('/');
     const data = await response.json();
     console.log('Response data from API:', data);
 
     // Assuming data.data.token exists
     loginUser(data.data.token);
-    router.push('/home'); // Redirect to home after successful login
+    // Redirect to home after successful login
   } catch (error) {
     setErrorMessage(error.message);
   } finally {
     setIsSubmitting(false);
-    router.push('/');
+    // router.push('/');
   }
 };
 
@@ -70,7 +70,7 @@ const Login = () => {
       {/* Left Image Section */}
       <div className="md:w-1/2 h-1/3 md:h-full relative">
         <Image
-          src="https://s3-alpha-sig.figma.com/img/48bf/0921/6999851aadf02a908928fba17e60d4d4?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j59ZwHgl8Fv0vHZ87afcyOcXl3C19n8dE~ENrODSjScOSBbeJDaqht6mdwdn5sf3UpHg~wRo~riTWD0qLkdG0OF2j5PTiYcdGPQhsNQrznTol54w7Kv0SqGRPXqFDYWmF247-wUh6CgoPnJGy~QW42t8G-sbUfknepgYKCB-sN4dNbkbC6bI4WMio5QLsnLCnVH-Hi9Fv~298DTn3eNfATFPYBhb~X2teNHa8en20GuInPdJyZJscaz5vDkWzQXeYWxuh-Gq1rEy3IPz2PSAj1gtDn3djEx7MQLCNlPv5qYhsWc5ZO2Q0h~T1dMQe2ok7bYlgRAHmzsBWW0L8IFxOw__"
+          src="/assets/loginPage.png"
           alt="Your Image"
            fill
            className="absolute inset-0"
@@ -84,7 +84,7 @@ const Login = () => {
           
             <Image className='m-auto mb-2' src={"/assets/verifylogo.png"} width={54} height={40} alt='verfylogo'/>
           
-             <Image className='m-auto mb-10' src={"/assets/sainchesOfVerify.png"} width={225} height={18} alt='shanches'/>
+             <Image className='m-auto mb-10' src="/assets/sainchesOfVerify.png" width={225} height={18} alt='shanches'/>
           
           
           <Formik

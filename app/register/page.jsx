@@ -37,7 +37,7 @@ const CreateAccount = () => {
       formData.append('email', values.email);
       formData.append('password', values.password);
       formData.append('password_confirmation', values.password_confirmation);
-      formData.append('national_image', values.national_image); // Add the image file
+      formData.append('national_image', values.national_image);  
       formData.append('terms', values.terms ? '1' : '0');
   
       const response = await fetch('https://sunchase.backend.aait-d.com/api/register', {
@@ -50,9 +50,9 @@ const CreateAccount = () => {
       }
   
       setAccountCreated(true);
+      router.push('/verifycode');
       resetForm(); // Clear the form after submission
       // Optionally, redirect to login or another page
-      // router.push('/login');
     } catch (error) {
       setErrorMessage(error.message);
     } finally {
@@ -69,7 +69,7 @@ const CreateAccount = () => {
     <div className="flex flex-col md:flex-row h-screen ">
       <div className="md:w-1/2 h-full relative">
         <Image
-          src="https://s3-alpha-sig.figma.com/img/48bf/0921/6999851aadf02a908928fba17e60d4d4?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j59ZwHgl8Fv0vHZ87afcyOcXl3C19n8dE~ENrODSjScOSBbeJDaqht6mdwdn5sf3UpHg~wRo~riTWD0qLkdG0OF2j5PTiYcdGPQhsNQrznTol54w7Kv0SqGRPXqFDYWmF247-wUh6CgoPnJGy~QW42t8G-sbUfknepgYKCB-sN4dNbkbC6bI4WMio5QLsnLCnVH-Hi9Fv~298DTn3eNfATFPYBhb~X2teNHa8en20GuInPdJyZJscaz5vDkWzQXeYWxuh-Gq1rEy3IPz2PSAj1gtDn3djEx7MQLCNlPv5qYhsWc5ZO2Q0h~T1dMQe2ok7bYlgRAHmzsBWW0L8IFxOw__"
+          src="/assets/loginPage.png"
           alt="Your Image"
           //  fill
           // width={756}

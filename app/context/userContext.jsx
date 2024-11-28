@@ -13,10 +13,11 @@ export const UserProvider = ({ children }) => {
     // console.log(token)
     if (authToken) {
        setUser(authToken);
-      router.push('/'); 
-    } else {
-      router.push('/login'); 
     }
+      // router.push('/'); 
+    // } else {
+    //   router.push('/login'); 
+    // }
   }, [router]);
 
     const loginUser = (authToken) => {
